@@ -2,7 +2,7 @@
 
 `curlcache` is just a thin wrapper around curl that aggressively caches all requests.
 This is useful when you know that the results of a query won't change or don't care. For example, 
-I used this when accessing an API which is just returns static data that never changes. Helps to
+I used this when accessing an API which just returns static data that never changes. Helps to
 avoid hitting an API query limit. 
 
 Notes:
