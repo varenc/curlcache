@@ -1,4 +1,4 @@
-## cURL cacher: aggressively cache curl results locally.
+# cURL cacher: aggressively cache curl results locally
 
 `curlcache` is just a thin wrapper around curl that aggressively caches all requests.
 This is useful when you know that the results of a query won't change or don't care. For example, 
